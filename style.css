@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding: 0;
+
+}
+
+
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    width: 100%;
+    height: 100%;
+
+}
+
+.navtop {
+  width:100%;
+    height:60px;
+    background-color: grey;
+    position: fixed;
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+border-bottom: 1px solid black;
+}
+
+
+
+.link{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 4px;
+    text-decoration: none;
+    font-family: sans-serif
+}
+
+
+
+h1 {
+    color: black;
+}
+
+.main-container {
+  width: 735px;
+  height: 780px;
+  /*border: 1px solid black;*/
+display: inline-block;
+background-color: red;
+float: right;
+background-image: url("https://raw.githubusercontent.com/reese22adamonis/playlist/master/resources/track.jpg");
+background-size: cover;
+opacity: 0.5;
+}
+
+/*.thirds {
+  
+ 
+  display: inline-block;
+  border: solid black 1px;
+  width:250px;
+  height:270px;
+
+}*/
+
+.navbot{
+width:100%;
+    height:50px;
+    background-color: grey;
+    position: fixed;
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    bottom:0px;
+border-top: 1px solid black;
+
+}
+
+
+
+.rcontainer{
+ width: 700px;
+  height: 800px;
+  /*border: 1px solid black;*/
+margin-left: 0px;
+display: inline-block;
+background-color: white;
+float: left
+padding-top:50px;
+
+}
+
+img
+{
+/*display: inline-block;*/
+/*max-width:100%;
+max-height:100%;*/
+display: inline-block;
+margin-left: 5px;
+height: 50px;
+width: 10px;
+border-radius: 100%;
+border: 2px solid black
+
+
+
+}
+
+.holds2containers{
+
+
+}
+
+button {
+	padding:25px 25px 25px 25px;
+}
